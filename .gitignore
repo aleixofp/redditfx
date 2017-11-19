@@ -25,3 +25,4 @@ src/com/fpa/softw/redditfx/integration/.vscode/
 src/com/fpa/softw/redditfx/integration/config.py
 src/com/fpa/softw/redditfx/integration/reddit_data.dat
 out/*
+.idea
