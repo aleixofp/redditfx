@@ -12,7 +12,7 @@ def bot_login():
                      client_secret=config.client_secret,
                      username=config.username,
                      password=config.password,
-                     user_agent="Created by: /u/memphoyles - Send post information to a desktop application. *Personal use*")
+                     user_agent="Created by: /u/" + config.admin + " - Send post information to a desktop application. *Personal use*")
 
 def get_submissions(subreddit, type_sort="hot", limit=10):
     return [p for p in (subreddit.hot(limit=limit) if type_sort=="hot" else 
